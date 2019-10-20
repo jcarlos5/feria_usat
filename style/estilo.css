@@ -1,0 +1,23 @@
+.logo-min{
+    font-size: 15px;
+}
+
+.hidden{
+    display: none;
+}
+
+.color{
+    background-color: #e6f0e9;
+}
+
+.result{
+    border-radius: 10px;
+    border: 0.5px solid #ededed;
+    padding: 10px;
+}
+
+.flotando{
+    position: absolute;
+    top: 4%;
+    right: 2%;
+}
