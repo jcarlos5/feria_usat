@@ -1,3 +1,19 @@
+window.onload = function() {
+    $.ajax({
+        url: 'get_sesion.php',
+        type: 'post',
+        data: {},
+        success: function( data ){
+        	if (data != 1){
+                window.location="login.html";
+            }
+        },
+        error: function( jqXhr, textStatus, error ){
+            console.log( error );
+        }
+    });
+}
+
 function buscar(){
     $("#body").removeClass("color");
     $("#logo").addClass("logo-min");
